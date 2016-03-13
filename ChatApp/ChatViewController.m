@@ -153,6 +153,7 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [self.msgField resignFirstResponder];
+    [self sendMsg:nil];
     return YES;
 }
 
